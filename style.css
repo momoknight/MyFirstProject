@@ -1,0 +1,74 @@
+*{
+    border: none;  
+    font-family: 'Open Sans',sans-serif;
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+}
+/*标题*/
+h1{
+    color: #495678;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;  
+}
+/*总边框*/
+div{
+    width: 280px;
+    background-color: #495678;
+    box-shadow: 4px 4px #3d4a65;
+    margin: 40px auto;
+    padding: 40px 0 30px 40px;
+}
+/*所有按钮*/
+.btn{
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px 0 5px 10px;
+}
+/*数字按钮*/
+.number{
+    background-color:#72778b;
+    box-shadow: 0 5px #5f6680;
+    color: #dededc;
+}
+.number:active{
+    box-shadow: 0 2px #5f6680;
+}
+/*运算符按钮*/
+.operator{
+    background-color: #dededc;
+    box-shadow: 0 5px #bebebe;
+    color: #72778b;
+}
+.operator:active{
+    box-shadow: 0 2px #bebebe;
+}
+/*清除、回删、等于按钮*/
+.other{
+    background-color: #e3844c;
+    box-shadow: 0 5px #e76a3d;
+    color: #dededc;
+}
+.other:active{
+    box-shadow: 0 2px #e76a3d;
+}
+/*输入框*/
+#display{
+    background-color:#98d1dc;
+    box-shadow: inset 6px 6px #3facc0;
+    height: 47px;
+    width: 115px;
+    color: #dededc;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+/*p标签*/
+p{
+    text-align:center;
+}
